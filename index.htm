@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Håkon Wium Lie</title>
+    <style>
+        div{
+            /* border: 1px solid red; */
+        }
+        .bala {
+            
+            background-color: gray;
+            background-image: url("https://img.freepik.com/free-vector/modern-flowing-colorful-wave-banner-background_1035-19861.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .paeen {
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        .mian {
+            height: 200px;
+            display: table;
+        }
+        .mian > div {
+            width: 15%;
+            padding: 20px;
+            display: table-cell;
+        }   
+        .vasat {
+            background-color: azure;
+        }
+        .chap {
+            background-color: beige;
+        }
+        .mian .vasat {
+            width: 30%;
+        }
+        .pic {
+            width:100px;
+            height: 100px;
+            background-color: brown;
+            border: none;
+            border-radius: 50px;
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/H%C3%A5kon_Wium_Lie.jpg/450px-H%C3%A5kon_Wium_Lie.jpg");
+            background-size: 100% ;
+            background-position: -3px -8px;
+            margin: 0 auto;
+        } 
+        .popup {
+            position: fixed;
+            width: 200px;
+            height: 260px;
+            top:100px;
+            right: 100px;
+            border-radius: 30px;
+            overflow: hidden;
+
+        }  
+        .popup img {
+            width:100%;
+        }
+        .popup .close {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            /* border: 1px solid white; */
+            border: none;
+            top:10px;
+            right: 10px;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            text-align: center;
+            
+        
+
+        }
+        .close a {
+            color:white;
+            text-decoration: none;
+        }
+        .close a:hover {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<div class="bala">
+    <h1>Håkon Wium Lie</h1>
+</div>
+<div class="mian">
+    <div class="chap">
+        <p>
+		As HTML grew, it came to encompass a wider variety of stylistic capabilities to meet the demands of web developers. This evolution gave the designer more control over site appearance, at the cost of more complex HTML. Variations in web browser implementations, such as ViolaWWW and WorldWideWeb, made consistent site appearance difficult, and users had less control over how web content was displayed. The browser/editor developed by Tim Berners-Lee had style sheets that were hard-coded into the program. The style sheets could therefore not be linked to documents on the web. Robert Cailliau, also of CERN, wanted to separate the structure from the presentation so that different style sheets could describe different presentation for printing, screen-based presentations, and editors.
+        </p>
+        <p>
+		Improving web presentation capabilities was a topic of interest to many in the web community and nine different style sheet languages were proposed on the www-style mailing list. Of these nine proposals, two were especially influential on what became CSS: Cascading HTML Style Sheets and Stream-based Style Sheet Proposal (SSP). Two browsers served as testbeds for the initial proposals; Lie worked with Yves Lafon to implement CSS in Dave Raggett's Arena browser. Bert Bos implemented his own SSP proposal in the Argo browser. Thereafter, Lie and Bos worked together to develop the CSS standard (the 'H' was removed from the name because these style sheets could also be applied to other markup languages besides HTML).
+        </p>
+    </div>
+    <div class="vasat">
+		<p>CSS was first proposed by <a href="https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie" title="Håkon Wium Lie">Håkon Wium Lie</a> on 10 October 1994.<sup id="cite_ref-chss-proposal_23-0" class="reference"></sup> At the time, Lie was working with <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a> at <a href="https://en.wikipedia.org/wiki/CERN" title="CERN">CERN</a>.<sup id="cite_ref-chapter20_24-0" class="reference"></sup> Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and inside <a href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium">World Wide Web Consortium</a> resulted in the first W3C CSS Recommendation (CSS1)<sup id="cite_ref-w3c-css1_25-0" class="reference"></sup> being released in 1996. In particular, a proposal by <a href="https://en.wikipedia.org/wiki/Bert_Bos" title="Bert Bos">Bert Bos</a> was influential; he became co-author of CSS1, and is regarded as co-creator of CSS.<sup id="cite_ref-WWW3_26-0" class="reference"></sup>
+		</p>
+		<p>
+		Style sheets have existed in one form or another since the beginnings of Standard Generalized Markup Language (SGML) in the 1980s, and CSS was developed to provide style sheets for the web.One requirement for a web style sheet language was for style sheets to come from different sources on the web. Therefore, existing style sheet languages like DSSSL and FOSI were not suitable. CSS, on the other hand, let a document's style be influenced by multiple style sheets by way of "cascading" styles.
+		</p>
+        <div class="pic"></div>
+
+    </div>
+    <div class="rast"></div>
+</div>
+<div class="paeen"></div>
+
+<div class="popup">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/H%C3%A5kon_Wium_Lie.jpg/450px-H%C3%A5kon_Wium_Lie.jpg">
+    <div class="close"><a href="#">X</a></div>
+</div>
+
+
+
+</body>
+</html>
